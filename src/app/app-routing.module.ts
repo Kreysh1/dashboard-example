@@ -4,6 +4,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { ChartComponent } from './components/chart/chart.component';
 import { Charts2012Component } from './components/charts2012/charts2012.component';
 import { Charts2006Component } from './components/charts2006/charts2006.component';
+import { ResumenComponent } from './components/resumen/resumen.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'inicio/2021', pathMatch: 'full'},
@@ -11,6 +12,7 @@ const routes: Routes = [
     { path: '2021', component: ChartComponent},
     { path: '2012', component: Charts2012Component},
     { path: '2006', component: Charts2006Component},
+    { path: 'resumen', component: ResumenComponent},
   ]},
 ];
 
